@@ -1,4 +1,4 @@
-![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/teaser_image.jpg)
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/teaser_image.jpg)
 
 In this project, we will explore one of the best digital twin creation tools available today: Metahumans. You can follow a detailed guide to create your own Metahuman, which can be seamlessly imported into any project. Using the Optitrack system for motion tracking, the Metahuman can be brought to life in any virtual scenario - in real-time with no latency.
 
@@ -45,7 +45,7 @@ Customize the Metahuman to your needs and export it as a ? file to later import 
 * Bone Naming Convention: UnrealEngine
 * Up-Axis: Y-Axis
 
-![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Setup.jpg)
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Setup.jpg)
 
 #### IMPORTANT: Remember or write down the internal IP-Adress (10.21.3.162). You will need it to add the correct Live Link Source in Unreal Engine.
 
@@ -60,6 +60,8 @@ Customize the Metahuman to your needs and export it as a ? file to later import 
 #### a) Now import the created MetaHuman via Drag and Drop into your Unreal Engine project. 
 #### b) AnimationBP: Create a new AnimBP using the skeleton of your MetaHuman. Pick "Live Link Pose" for the input pose and retarget the asset in Optitrack. Use the correct Live Link name (the name of your object in Motion) to synchronize the animation correctly.
 #### c) Settings in the MetaHumanBP: Ensure that "LODYSync" is set to >= 1 and select the created Anim BP for the skeletal mesh. Also ensure to live link the skeletal animation component.
+
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/live_link_pose.png)
 
 ## 7. Synchronize Metahuman with Yourself:
 Hop into the Motion-Tracking suit and open the Builder in the Motion application. Pick one of the skeletons (we picked Baseline (41), since we wanted both to be tracked) and place the markers as shown. Create a new object and name it as you like.
