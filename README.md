@@ -1,16 +1,19 @@
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/teaser_image.jpg)
 
-In this project, we will explore one of the best digital twin creation tools available today: Metahumans. You can follow a detailed guide to create your own Metahuman, which can be seamlessly imported into any project. Using the Optitrack system for motion tracking, the Metahuman can be brought to life in any virtual scenario - in real-time with no latency.
+In this project, we will explore one of the best digital twin creation tools available today: Metahumans. You can follow a detailed guide to create your own Metahuman, which can be seamlessly imported into any project. Using the Optitrack system for motion tracking, the Metahuman can be brought to life in any virtual scenario - in real-time with little to no latency.
 
-# Requirements:
-1. OPTITRACK:
-* Optitrack system
+# Recommended Requirements:
+1. Hardware:
+* LAN network connection
+* Optitrack motion capture system
+* Optitrack motion tracking suits
+* (Additionally: passive markers)
+* Laptop/PC suited for real-time rendering (incl. LAN port)
+* LAN cable
+2. Software:
+* Unreal Engine
+* * We used Engine Version 5.4 but you could also go for a different one if you like
 * Motive application
-* Motion tracking suits
-* (Passive markers)
-2. LAPTOP/PC:
-* Laptop/PC with a LAN port
-* LAN cable connection to Optitrack system
 
 # Setup:
 
@@ -18,7 +21,7 @@ In this project, we will explore one of the best digital twin creation tools ava
 Download and install the [Epic Games Launcher](https://store.epicgames.com/en-US/download) from the website. Open it and create your Epic Games Account or log in directly if you already have one.
 
 ## 2. Install Unreal Engine
-Once the login has worked, the launcher opens. Click on "Unreal Engine" on the left side and pick "Library" from the riders above. Behind the "Engine-Version" a yellow "Plus-Button" is visible. Click it and select your Unreal Engine version from the dropdown in the top right from the now appearing container. Afterwards hit install and select install in the now appearing window. Unreal Engine is now getting downloaded which can take a while depending on your network. You can see the progress or pause the download in the bottom left of the launcher if necessary.
+After opening the laucher choose the "Unreal Engine" tab on the left. Navigate to "Library" at the top. Add your desired "Engine-Version" with the yellow "Plus-Button". Click it and select your Unreal Engine version from the dropdown in the top right from the now appearing container. Afterwards hit install and select install in the now appearing window. Unreal Engine is now getting downloaded which can take a while depending on your network. You can see the progress or pause the download in the bottom left of the launcher if necessary.
 
 ## 3. Install and activate the Live-Link plugin
 Open Unreal Engine using the Launch button in the top right once the Engine is downloaded. Pick one of the standard projects and wait until it is opened. Once the project has been created select "Edit" from the top left menu and pick "Plugins". Search for "Live Link", tick the first option available and restart Unreal Engine to activate it. You can now customize the scene if you want to make the interaction with the MetaHumans more interesting later on.
