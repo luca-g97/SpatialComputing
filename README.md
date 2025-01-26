@@ -26,11 +26,10 @@ After opening the laucher choose the "Unreal Engine" tab on the left. Navigate t
 ## 3. Install and activate the Live-Link plugin
 Open Unreal Engine using the Launch button in the top right once the Engine is downloaded. Pick one of the standard projects and wait until it is opened. Once the project has been created select "Edit" from the top left menu and pick "Plugins". Search for "Live Link", tick the first option available and restart Unreal Engine to activate it. You can now customize the scene if you want to make the interaction with the MetaHumans more interesting later on.
 
-## 4. Download and install Optitrack Plugin
+## 4. Download and install Optitrack Plugin & Ensure Motive Installation
 Download the [Optitrack Plugin](https://www.optitrack.com/support/downloads/plugins.html) from the official website and put the plugin contents into the following folder:
 * C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Marketplace\OptitrackLiveLink
-
-## 5. Make sure that the optitrack system has a functioning version of [Motive](https://www.optitrack.com/support/downloads/) installed.
+Make sure that the optitrack system has a functioning version of [Motive](https://www.optitrack.com/support/downloads/) installed as well.
 
 # Digital-Twin Creation
 
