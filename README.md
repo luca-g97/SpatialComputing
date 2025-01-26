@@ -12,7 +12,7 @@ In this project, we will explore one of the best digital twin creation tools ava
 * LAN cable
 2. Software:
 * Unreal Engine
-* * We used Engine Version 5.4 but you could also go for a different one if you like
+  * We used Engine Version 5.4 but you could also go for a different one if you like
 * Motive application
 
 # Setup:
@@ -30,8 +30,11 @@ Open Unreal Engine using the Launch button in the top right once the Engine is d
 Download the [Optitrack Plugin](https://www.optitrack.com/support/downloads/plugins.html) from the official website and put the plugin contents into the following folder:
 * C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Marketplace\OptitrackLiveLink
 
-# Digital-Twin Creation:
-## 5. Metahuman-Creation:
+## 5. Make sure that the optitrack system has a functioning version of [Motive](https://www.optitrack.com/support/downloads/) installed.
+
+# Digital-Twin Creation
+
+## 5. Metahuman-Creation
 Open the following Website in your Browser: https://metahuman.unrealengine.com/, log into your Epic Games account and pick your preferred Unreal Engine Version (in our case 5.4, but it should work with every version) from the dropdown menu. Open the MetaHuman Creator by clicking onto "Launch MetaHuman Creator" (this might take a while)
 Customize the Metahuman to your needs and export it as a ? file to later import in Unreal Engine.
 
