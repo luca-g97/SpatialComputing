@@ -65,11 +65,11 @@ Customize the Metahuman to your needs and export it as a ? file to later import 
 ## 8. Retarget Skeleton:
 #### a) Now import the created MetaHuman via Drag and Drop into your Unreal Engine project. 
 #### b) AnimationBP: Create a new AnimBP using the skeleton of your MetaHuman. Pick "Live Link Pose" for the input pose and retarget the asset in Optitrack. Use the correct Live Link name (the name of your object in Motion) to synchronize the animation correctly.
-#### c) Settings in the MetaHumanBP: Ensure that "LODYSync" is set to >= 1 and select the created Anim BP for the skeletal mesh. Also ensure to live link the skeletal animation component.
+#### c) Settings in the MetaHumanBP: Ensure that "LODSync" is set to >= 1 and select the created Anim BP for the skeletal mesh. Also ensure to live link the skeletal animation component.
 
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/live_link_pose.png)
 
-## 7. Synchronize Metahuman with Yourself:
+## 9. Synchronize Metahuman with Yourself:
 Hop into the Motion-Tracking suit and open the Builder in the Motion application. Pick one of the skeletons (we picked Baseline (41), since we wanted both to be tracked) and place the markers as shown. Create a new object and name it as you like.
 
 ## ... FAQ:
