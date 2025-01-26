@@ -29,6 +29,7 @@ Open Unreal Engine using the Launch button in the top right once the Engine is d
 ## 4. Download and install Optitrack Plugin & Ensure Motive Installation
 Download the [Optitrack Plugin](https://www.optitrack.com/support/downloads/plugins.html) from the official website and put the plugin contents into the following folder:
 * C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Marketplace\OptitrackLiveLink
+
 Make sure that the optitrack system has a functioning version of [Motive](https://www.optitrack.com/support/downloads/) installed as well.
 
 # Digital-Twin Creation
