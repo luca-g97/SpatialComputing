@@ -4,7 +4,7 @@ In this project, we will explore one of the best digital twin creation tools ava
 # Requirements:
 1. OPTITRACK:
 * Optitrack system
-* Motion application
+* Motive application
 * Motion tracking suits
 * (Passive markers)
 2. LAPTOP/PC:
@@ -15,8 +15,8 @@ Beispiel:
 ![requiredItems](https://github.com/Digital-Media/sco_2023/assets/116873186/cf3e1e2e-9148-4f68-8b70-d307e0204fa1)
 
 # Setup:
-## 1. Motion Settings
-### a) Since you will need a license for Motion and the Optitrack system anyway as well as the suits, you need a PC with Motion installed. Make also sure there is one LAN port available which you can connect your PC to later on. Open the Motion application.
+## 1. Motive Settings
+### a) Since you will need a license for Motion and the Optitrack system anyway as well as the suits, you need a PC with Motive installed. Make also sure there is one LAN port available which you can connect your PC to later on. Open the Motion application.
 ### b) Place the "Calibration-Triangle" on the ground in sight of the cameras and return to the PC. Click onto "eSync 2" on in the rider "Devices" on the top right. Select "Internal Free Run" from the "Source" options in the "Sync Input Settings" section. Check if the markers are shown in the camera view in the bottom mid of the screen.
 ### c) Remove the "Calibration-Triangle" from the cameras sight to not interfere with the "Wanding". Calibrate the system now using the "Wand" and ensure that you cover as much as possible on each camera. Put the "Calibration-Triangle" in the middle of the room and select it to set the ground plane correctly.
 ### d) Open the "Settings" menu and switch to the rider "Streaming". Make sure that the following settings are met to correctly stream the data in Unreal Engine later:
