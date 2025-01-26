@@ -72,5 +72,5 @@ Hop into the Motion-Tracking suit and open the Builder in the Motion application
 ### What is a MetaHuman? …
 
 ## Recommended sources:
-[Live-Link Plugin](https://docs.optitrack.com/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/quick-start-guide-real-time-retargeting-in-unreal-engine-with-live-link-content) - detailed explanation of how the plugin works
-[Unreal Live Link Setup Tutorial](https://www.youtube.com/watch?v=rpd9KxQyeek&t=358s&ab_channel=TrashPraxis)
+* [Live-Link Plugin](https://docs.optitrack.com/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/quick-start-guide-real-time-retargeting-in-unreal-engine-with-live-link-content) - detailed explanation of how the plugin works
+* [Unreal Live Link Setup Tutorial](https://www.youtube.com/watch?v=rpd9KxQyeek&t=358s&ab_channel=TrashPraxis)
