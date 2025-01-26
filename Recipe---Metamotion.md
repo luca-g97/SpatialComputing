@@ -41,25 +41,30 @@ Customize the Metahuman to your needs and export it as a ? file to later import 
 #### b) Place the "Calibration-Triangle" on the ground in sight of the cameras and return to the PC. Click onto "eSync 2" on in the rider "Devices" on the top right. Select "Internal Free Run" from the "Source" options in the "Sync Input Settings" section. Check if the markers are shown in the camera view in the bottom mid of the screen.
 #### c) Remove the "Calibration-Triangle" from the cameras sight to not interfere with the "Wanding". Calibrate the system now using the "Wand" and ensure that you cover as much as possible on each camera. Put the "Calibration-Triangle" in the middle of the room and select it to set the ground plane correctly.
 #### d) Open the "Settings" menu and switch to the rider "Streaming". Make sure that the following settings are met to correctly stream the data in Unreal Engine later:
-* Local Interface: 
+* Local Interface: 10.21.3.162
 * Transmission Type: Unicast
 * Skeleton Coordinates: Local
 * Bone Naming Convention: UnrealEngine
 * Up-Axis: Y-Axis
 
-![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/img_motive_settings.png)
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Setup.jpg)
 
-## IMPORTANT: Remember or write down the internal IP-Adress (Local Interface). You will need it to add the correct Live Link Source in Unreal Engine.
+#### IMPORTANT: Remember or write down the internal IP-Adress (10.21.3.162). You will need it to add the correct Live Link Source in Unreal Engine.
 
-## 6. Retarget Skeleton:
-### a) Now import the created MetaHuman via Drag and Drop into your Unreal Engine project. Add a "Live Link Source" and deactivate "Animate Y forward" in it.
+## 7. Add Live Link Source:
+### a) Open the Live Link Window by going to Window-->LiveLink
+### b) Add a new source and uncheck "automatic"
+### c) Open a command prompt and enter "ipconfig" to check your local IP-Address (begins with 10...) and enter it as the local address.
+### d) Enter the IP-Address (10.21.3.162) from Motive as the Source Address.
+### e) Finally Create the "Live Link Source", select it and deactivate "Animate Y forward" in the details section.
+
+## 8. Retarget Skeleton:
+### a) Now import the created MetaHuman via Drag and Drop into your Unreal Engine project. 
 ### b) AnimationBP: Create a new AnimBP using the skeleton of your MetaHuman. Pick "Live Link Pose" for the input pose and retarget the asset in Optitrack. Use the correct Live Link name (the name of your object in Motion) to synchronize the animation correctly.
 ### c) Settings in the MetaHumanBP: Ensure that "LODYSync" is set to >= 1 and select the created Anim BP for the skeletal mesh. Also ensure to live link the skeletal animation component.
 
 ## 7. Synchronize Metahuman with Yourself:
 Hop into the Motion-Tracking suit and open the Builder in the Motion application. Pick one of the skeletons (we picked Baseline (41), since we wanted both to be tracked) and place the markers as shown. Create a new object and name it as you like.
-
-
 
 ## ... FAQ:
 
