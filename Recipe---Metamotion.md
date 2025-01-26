@@ -47,6 +47,8 @@ Customize the Metahuman to your needs and export it as a ? file to later import 
 * Bone Naming Convention: UnrealEngine
 * Up-Axis: Y-Axis
 
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/img_motive_settings.png)
+
 ## IMPORTANT: Remember or write down the internal IP-Adress (Local Interface). You will need it to add the correct Live Link Source in Unreal Engine.
 
 ## 6. Retarget Skeleton:
