@@ -73,7 +73,15 @@ Hop into the Motion-Tracking suit and open the Builder in the Motive application
 
 ## Now everything is set up properly and only your own imagination is the limit of what your digital twin can do now!
 
-![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Digital-Twins.png)
+Ever wanted to recreate the scene from the Matrix movie? Here you go:
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Matrix.gif)
+
+Imagined to be a digital super hero saving everyone from a grenade? No problem anymore:
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Grenade.gif)
+
+Or just wanted to mess around to create funny clips? We got you covered:
+![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/DriveBy.gif)
+
 
 ## Recommended sources:
 * [Live-Link Plugin](https://docs.optitrack.com/plugins/optitrack-unreal-engine-plugin/unreal-engine-optitrack-live-link-plugin/quick-start-guide-real-time-retargeting-in-unreal-engine-with-live-link-content) - detailed explanation of how the plugin works
