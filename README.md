@@ -82,11 +82,7 @@ Put on the motion-tracking suit and open the **"Builder"** tool in the Motive ap
 
 ---
 
-## Now everything is set up properly, and only your imagination limits what your digital twin can do!
-
----
-
-## Some Impressions of Our Session:
+## Now everything is set up properly, and only your imagination limits what your digital twin can do! Beneath are some Impressions of Our Session:
 Ever dreamed of recreating iconic scenes like the bullet-dodge from *The Matrix*? Now you can:
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Matrix.gif)
 
