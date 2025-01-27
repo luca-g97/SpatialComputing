@@ -73,6 +73,7 @@ Hop into the Motion-Tracking suit and open the Builder in the Motive application
 
 ## Now everything is set up properly and only your own imagination is the limit of what your digital twin can do now!
 
+## Some impressions of our session:
 Ever wanted to recreate the scene from the Matrix movie? Here you go:
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Matrix.gif)
 
@@ -91,8 +92,47 @@ Or just wanted to mess around to create funny clips? We got you covered:
 
 ## ... FAQ:
 
-### What is Unreal Engine? ...
-### What is a MetaHuman? …
+### What is Unreal Engine? 
+Unreal Engine is a powerful, real-time 3D creation tool developed by Epic Games. It is widely used for game development, filmmaking, architecture, simulation, and other industries that require high-quality visual content. Unreal Engine is known for its cutting-edge graphics, robust physics engine, and user-friendly interface, making it a popular choice for both indie developers and large studios.
 
-## Some impressions of our session:
+### What is a MetaHuman?
+MetaHuman is a framework developed by Epic Games for creating highly realistic digital humans in Unreal Engine. It is part of the MetaHuman Creator, a cloud-based tool that allows users to design and customize photorealistic human characters quickly and easily.
+
+### What is a Digital Twin?
+A digital twin is a virtual representation of a physical object, system, or person that mirrors its real-world counterpart in real-time. In this project, the digital twin is a MetaHuman character that replicates your movements using motion capture technology, allowing you to interact with virtual environments as if you were physically present.
+
+### What is OptiTrack?
+OptiTrack is a motion capture system that uses cameras and markers to track the movement of objects or people in real-time. It is widely used in animation, virtual reality, and robotics to capture precise movements and translate them into digital data. In this project, OptiTrack is used to track your movements and synchronize them with your MetaHuman digital twin.
+
+### What is Live Link?
+Live Link is a feature in Unreal Engine that enables real-time data streaming from external sources, such as motion capture systems, into the engine. It allows for seamless integration of live data, such as animations or positional tracking, into your Unreal Engine projects. In this project, Live Link is used to stream motion data from the OptiTrack system to animate your MetaHuman.
+
+### Can I use a different motion capture system instead of OptiTrack?
+Yes, Unreal Engine supports various motion capture systems through Live Link. While this guide focuses on OptiTrack, you can use other systems like Rokoko, Xsens, or Perception Neuron, provided they are compatible with Live Link and have the necessary plugins or integrations.
+
+### Do I need programming skills to use Unreal Engine and MetaHuman?
+No, Unreal Engine is designed to be accessible to users with varying levels of expertise. The Blueprint visual scripting system allows you to create complex logic without writing code. Additionally, tools like MetaHuman Creator and Live Link are designed to be user-friendly, making it easy to create and animate digital humans without extensive technical knowledge.
+
+### What are the limitations of MetaHuman?
+While MetaHuman offers highly realistic characters, there are some limitations:
+*Performance: High-fidelity MetaHumans can be resource-intensive, requiring powerful hardware for real-time rendering.
+* Customization: While MetaHuman Creator offers extensive customization options, there are limits to how much you can deviate from the provided templates.
+* Animation: While MetaHumans are animation-ready, creating complex animations may require additional tools or expertise.
+
+### Can I use MetaHumans for commercial projects?
+Yes, MetaHumans created using MetaHuman Creator can be used in commercial projects without additional licensing fees. However, ensure you comply with Epic Games' licensing terms, especially if your project generates significant revenue.
+
+### What are the benefits of using Unreal Engine for digital twin creation?
+Unreal Engine offers several advantages for digital twin creation:
+* Real-Time Rendering: Instantly visualize changes and interactions.
+* High-Quality Graphics: Achieve photorealistic visuals with features like Nanite and Lumen.
+* Cross-Platform Support: Deploy your digital twin across various platforms, including VR/AR, mobile, and desktop.
+* Extensive Toolset: Access a wide range of tools and plugins, such as Live Link and MetaHuman Creator, to streamline development.
+
+### How can I optimize performance when using MetaHumans?
+To optimize performance:
+* Use Level of Detail (LOD) settings to reduce the complexity of the MetaHuman model at a distance.
+* Limit the number of active MetaHumans in a scene.
+* Use efficient lighting and post-processing settings.
+*Ensure your hardware meets the recommended requirements for real-time rendering.
 
