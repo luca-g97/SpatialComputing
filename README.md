@@ -134,5 +134,5 @@ To optimize performance:
 * Use Level of Detail (LOD) settings to reduce the complexity of the MetaHuman model at a distance.
 * Limit the number of active MetaHumans in a scene.
 * Use efficient lighting and post-processing settings.
-*Ensure your hardware meets the recommended requirements for real-time rendering.
+(Ensure your hardware meets the recommended requirements for real-time rendering)
 
