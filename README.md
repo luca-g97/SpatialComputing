@@ -33,7 +33,7 @@ Open Unreal Engine using the **Launch** button in the top right once the Engine 
 
 ## 4. Download and Install OptiTrack Plugin & Ensure Motive Installation
 Download the [OptiTrack Plugin](https://www.optitrack.com/support/downloads/plugins.html) from the official website and place the plugin contents into the following folder:
-- `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Marketplace\OptitrackLiveLink`
+`C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\Marketplace\OptitrackLiveLink`
 
 Make sure that the OptiTrack system has a licensed version of [Motive](https://www.optitrack.com/support/downloads/) installed as well.
 
