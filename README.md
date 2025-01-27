@@ -127,7 +127,7 @@ No, Unreal Engine is designed to be accessible to users with varying levels of e
 
 ### What are the limitations of MetaHuman?
 While MetaHuman offers highly realistic characters, there are some limitations:
-*Performance: High-fidelity MetaHumans can be resource-intensive, requiring powerful hardware for real-time rendering.
+* Performance: High-fidelity MetaHumans can be resource-intensive, requiring powerful hardware for real-time rendering.
 * Customization: While MetaHuman Creator offers extensive customization options, there are limits to how much you can deviate from the provided templates.
 * Animation: While MetaHumans are animation-ready, creating complex animations may require additional tools or expertise.
 
