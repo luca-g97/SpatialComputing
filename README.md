@@ -100,8 +100,9 @@ Or just wanted to mess around and create funny clips? We’ve got you covered:
 - [Motive Calibration](https://docs.optitrack.com/motive/calibration) - Official documentation for calibrating the OptiTrack system.
 
 ---
+---
 
-## ... FAQ:
+## FAQ:
 
 ### What is Unreal Engine? 
 Unreal Engine is a powerful, real-time 3D creation tool developed by Epic Games. It is widely used for game development, filmmaking, architecture, simulation, and other industries that require high-quality visual content. Unreal Engine is known for its cutting-edge graphics, robust physics engine, and user-friendly interface, making it a popular choice for both indie developers and large studios.
