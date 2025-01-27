@@ -49,31 +49,31 @@ Open the following website in your browser: [MetaHuman Creator](https://metahuma
 # Final Steps
 
 ## 6. Edit Motive Live Settings
-#### a) Since you will need a license for Motive and the OptiTrack system, ensure you have a PC with Motive installed. Make sure there is one LAN port available to connect your PC later. Open the Motive application.
-#### b) Place reflective markers within the cameras' field of view and return to the PC. Click on **"eSync 2"** in the **"Devices"** section on the top right. Select **"Internal Free Run"** from the **"Source"** options in the **"Sync Input Settings"** section. Check if the markers are visible in the camera view at the bottom middle of the screen.
-#### c) Remove all markers from the cameras' sight and mask any other visible detected objects to avoid interference during **"Wanding"**. Calibrate the system using the **"Wand"** and ensure you cover as much of each camera's field of view as possible. Place the **"Calibration Square"** in the middle of the room and select it to set the ground plane correctly.
-#### d) Open the **"Settings"** menu and switch to the **"Streaming"** tab. Ensure the following settings are configured to stream data correctly to Unreal Engine:
-- **Local Interface**: `10.21.3.162`
-- **Transmission Type**: Unicast
-- **Skeleton Coordinates**: Local
-- **Bone Naming Convention**: UnrealEngine
-- **Up-Axis**: Y-Axis
+1. Since you will need a license for Motive and the OptiTrack system, ensure you have a PC with Motive installed. Make sure there is one LAN port available to connect your PC later. Open the Motive application.
+2. Place reflective markers within the cameras' field of view and return to the PC. Click on **"eSync 2"** in the **"Devices"** section on the top right. Select **"Internal Free Run"** from the **"Source"** options in the **"Sync Input Settings"** section. Check if the markers are visible in the camera view at the bottom middle of the screen.
+3. Remove all markers from the cameras' sight and mask any other visible detected objects to avoid interference during **"Wanding"**. Calibrate the system using the **"Wand"** and ensure you cover as much of each camera's field of view as possible. Place the **"Calibration Square"** in the middle of the room and select it to set the ground plane correctly.
+4. Open the **"Settings"** menu and switch to the **"Streaming"** tab. Ensure the following settings are configured to stream data correctly to Unreal Engine:
+   - **Local Interface**: `10.21.3.162`
+   - **Transmission Type**: Unicast
+   - **Skeleton Coordinates**: Local
+   - **Bone Naming Convention**: UnrealEngine
+   - **Up-Axis**: Y-Axis
 
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/Setup.jpg)
 
 #### IMPORTANT: Remember or write down the internal IP address (`10.21.3.162`). You will need it to add the correct Live Link Source in Unreal Engine.
 
 ## 7. Add Live Link Source
-#### a) Open the Live Link window by navigating to **Window > Live Link**.
-#### b) Add a new source and uncheck **"Automatic"**.
-#### c) Open a command prompt and enter `ipconfig` to retrieve your local IP address (typically starting with `10.x.x.x`). Enter this as the local address.
-#### d) Enter the IP address (`10.21.3.162`) from Motive as the **Source Address**.
-#### e) Finally, create the **"Live Link Source"**, select it, and deactivate **"Animate Y Forward"** in the details section.
+1. Open the Live Link window by navigating to **Window > Live Link**.
+2. Add a new source and uncheck **"Automatic"**.
+3. Open a command prompt and enter `ipconfig` to retrieve your local IP address (typically starting with `10.x.x.x`). Enter this as the local address.
+4. Enter the IP address (`10.21.3.162`) from Motive as the **Source Address**.
+5. Finally, create the **"Live Link Source"**, select it, and deactivate **"Animate Y Forward"** in the details section.
 
 ## 8. Retarget Skeleton
-#### a) Import the created MetaHuman into your Unreal Engine project via drag and drop.
-#### b) **Animation Blueprint (AnimBP)**: Create a new AnimBP using the skeleton of your MetaHuman. Select **"Live Link Pose"** for the input pose and retarget the asset in OptiTrack. Use the correct Live Link name (the name of your object in Motive) to synchronize the animation correctly.
-#### c) **Settings in the MetaHumanBP**: Ensure that **"LODSync"** is set to `>= 1` and select the created AnimBP for the skeletal mesh. Also, ensure the skeletal animation component is linked to Live Link.
+1. Import the created MetaHuman into your Unreal Engine project via drag and drop.
+2. **Animation Blueprint (AnimBP)**: Create a new AnimBP using the skeleton of your MetaHuman. Select **"Live Link Pose"** for the input pose and retarget the asset in OptiTrack. Use the correct Live Link name (the name of your object in Motive) to synchronize the animation correctly.
+3. **Settings in the MetaHumanBP**: Ensure that **"LODSync"** is set to `>= 1` and select the created AnimBP for the skeletal mesh. Also, ensure the skeletal animation component is linked to Live Link.
 
 ![requiredItems](https://github.com/luca-g97/SpatialComputing/blob/main/Assets/live_link_pose.png)
 
